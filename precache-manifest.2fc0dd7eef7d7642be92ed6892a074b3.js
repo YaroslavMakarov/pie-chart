@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cf8fd8f8cc556960ed5ec065c9c67bad",
+    "revision": "cd3cc38cb3c615ff34ea77b106644fc0",
     "url": "/pie-chart/index.html"
   },
   {
-    "revision": "0c332bd04c3310f1da2c",
-    "url": "/pie-chart/static/css/main.fa65609b.chunk.css"
+    "revision": "bbbcd57c0d16d8d76f42",
+    "url": "/pie-chart/static/css/main.620bf919.chunk.css"
   },
   {
-    "revision": "ab56f971524bc340bdb2",
-    "url": "/pie-chart/static/js/2.3e34c191.chunk.js"
+    "revision": "ddfcb6b64eb4a3e173d8",
+    "url": "/pie-chart/static/js/2.c8e7f5e1.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/pie-chart/static/js/2.3e34c191.chunk.js.LICENSE.txt"
+    "revision": "3453b8997016469371284a28c0e873e2",
+    "url": "/pie-chart/static/js/2.c8e7f5e1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0c332bd04c3310f1da2c",
-    "url": "/pie-chart/static/js/main.7a0e4fa4.chunk.js"
+    "revision": "bbbcd57c0d16d8d76f42",
+    "url": "/pie-chart/static/js/main.f084ded9.chunk.js"
   },
   {
     "revision": "edc5f7056ed27d9c6b5e",
