@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  padding: 0 50px;
+  background-color: #f51d77;
+
+  & :last-child {
+    margin-right: 0;
+  }
+
+  &__link {
+    display: block;
+    box-sizing: border-box;
+    padding: 20px 0;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+  }
+}

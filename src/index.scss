@@ -1,0 +1,10 @@
+@import "./common styles/fonts.scss";
+
+body {
+  margin: 0;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -2,17 +2,26 @@
   "name": "pie-chart",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://YaroslavMakarov.github.io/pie-chart",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "@types/node-sass": "^4.11.1",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/typescript": "^2.0.0",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "typescript": "^4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -30,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
