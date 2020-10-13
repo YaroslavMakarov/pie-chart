@@ -1,7 +1,7 @@
 # React Zapalean
 - [DEMO LINK]( https://yaroslavmakarov.github.io/pie-chart/)
 
-- How to run this project
+How to run this project
 1. Clone this repository.
 2. Open the project folder "yalantis-test" in your editor/IDE.
 3. Run the command in your terminal npm install or yarn install
