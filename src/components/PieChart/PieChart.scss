@@ -1,0 +1,13 @@
+@import "../../common styles/variables.scss";
+
+.chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: $bodyHeight;
+
+  &__svg {
+    width: 600px;
+    height: 600px;
+  }
+}

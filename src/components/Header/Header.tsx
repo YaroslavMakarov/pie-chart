@@ -1,14 +1,21 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import "./Header.scss";
 
 const Header  = () => {
+    const location = useLocation();
+
     return (
         <div className="header">
             <NavLink
                 to="/"
                 exact
                 className="header__link"
+                activeClassName={
+                    location.pathname === "/"
+                        ? "header__link--active"
+                        : ""
+                }
             >
                 Home
             </NavLink>
@@ -16,6 +23,11 @@ const Header  = () => {
                 to="/pieChart"
                 exact
                 className="header__link"
+                activeClassName={
+                    location.pathname === "/pieChart"
+                        ? "header__link--active"
+                        : ""
+                }
             >
                 Pie Chart
             </NavLink>
